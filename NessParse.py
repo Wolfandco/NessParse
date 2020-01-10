@@ -30,7 +30,8 @@ sheet = wb.get_sheet_by_name('SHEET NAME HERE')
 
 print('Reading Table...')
 
-## 
+## First for loop intends to find a certain value from nessusExpressions dictionary, and when it does, place the appropriate wolf comment
+## in the wolf comment column relating to it.
 
 tuple(sheet['A2':'O7305'])
 
